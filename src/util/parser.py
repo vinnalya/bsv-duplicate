@@ -5,6 +5,12 @@ class Article:
     key: str
     doi: str
 
+    def __repr__(self) -> str:
+        if self.doi != None:
+            return f'{self.key} ({self.doi})'
+        else:
+            return f'{self.key}'
+
 def parse(data: str) -> list[Article]:
     """
     Parse a raw text file containing bibliographic references in BibTeX format into a list of Article objects.
