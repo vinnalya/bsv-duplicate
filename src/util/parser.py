@@ -3,7 +3,7 @@ from dataclasses import dataclass
 @dataclass
 class Article:
     key: str
-    doi: str
+    doi: str = None
 
     def __repr__(self) -> str:
         if self.doi != None:
@@ -31,5 +31,7 @@ def parse(data: str) -> list[Article]:
         for line in lines:
             if 'doi' in line:
                 doi = line.split('=')[1].strip().replace('{', '').replace('}', '').replace(',', '')
+                
+        articles.append(Article(key))
 
     return articles
