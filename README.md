@@ -4,7 +4,7 @@
 
 This repository contains a toy system which detects duplicate entries from `.bib` files which contain a list of references to scientific articles.
 
-> [!WARNING]
+> [!CAUTION]
 > This is a toy system containing **seeded defects**! Do not use this code for production purposes.
 
 ## Repository Structure
