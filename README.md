@@ -55,6 +55,9 @@ Replace `<marker>` with any of the available markers from [pytest.ini](pytest.in
 Currently, using the marker `demo` will execute a simple, failing test case.
 The real test cases to be developed in the [test_detect_duplicates.py](./test/unit/test_detect_duplicates.py) file shall be marked with `unit`.
 
+> [!TIP]
+> If you are unable to execute the test cases locally, make use of the GitHub action: push your code to your fork of the repository and inspect the output of the **Pytest** action.
+
 ## License
 
 Copyright © 2024 by Julian Frattini. 
