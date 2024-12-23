@@ -1,8 +1,8 @@
 import os
 
-from util.detector import detect_duplicates
+from src.util.detector import detect_duplicates
 
-DATA_PATH: str = '../data/references.bib'
+DATA_PATH: str = 'data/references.bib'
 
 def load_data(path: str) -> str:
     with open(path, 'r') as file:

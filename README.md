@@ -39,7 +39,7 @@ To execute the system in its current form, make sure that you have [Python 3.10]
 Then, execute the following steps:
 
 1. Install all required packages via `pip install -r requirements.txt`.
-2. Execute the following command from the *src/* directory: `python .\main.py`.
+2. Execute the following command from the root directory: `python .\src\main.py`.
 
 You should see a list of bibtex article keys in the console output.
 
